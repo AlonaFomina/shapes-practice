@@ -14,10 +14,12 @@ public class Square implements  Shape{
     double side
      */
 
-    double side;
+      private double side;
 
-
-    /*
+    public void setSide(double side) {
+        this.side = side;
+    }
+      /*
     Override area and perimeter methods here
     REMEMBER:
     Area of a square can be found as => side * side

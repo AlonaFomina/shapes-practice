@@ -14,13 +14,17 @@ public class Rectangle implements Shape {
     double width
     double height
      */
-    double width;
-    double height;
+    private double width;
+    private double height;
 
+    public void setWidth(double width) {
+        this.width = width;
+    }
 
-
-
-    /*
+    public void setHeight(double height) {
+        this.height = height;
+    }
+/*
     Override area and perimeter methods here
     REMEMBER:
     Area of a rectangle can be found as => width * height
